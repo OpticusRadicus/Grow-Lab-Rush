@@ -15,11 +15,8 @@ h6 {
 	font-weight: normal;
 	color: #6a489e;
 }
+
 /*Helpers*/
-
-
-
-
 
 .LogInBorder {
 	border-style: solid;
@@ -51,40 +48,21 @@ color: white;
 	padding-right: 280px;
 }
  }
-
+/*Banner "A Private Matchmaking Platform for Asians Globally" size control */
 @media  (min-width: 300px) and (max-width: 1001px) {
 
 .titleHolder { padding-left: 0px; padding-right: 0px; }
 
 }
-
-
-
-/*@media (min-width: 700px){
-.titleHolder { padding-left: 0px; padding-right: 0px; }
-
- }
-*/
-@media  (min-width: 300px) and (max-width: 1001px) {
-
-.titleHolder { padding-left: 0px; padding-right: 0px; }
-
-}
-
-
-
-
-
-
-
 
 .landing-page .banner-content {
-position: absolute;
-top: 130px;
+position: relative;
+top: 184px;
 left: 50%;
 text-align: center;
 width: 80%;
 margin-left: -40%;
+margin-bottom: auto;
 }
 
 .landing-page .feature-text span {
@@ -114,7 +92,7 @@ img.app-dl {
 
 @media (min-width: 900px) {
 
-.match-box-round { margin-left: 30px; }
+.match-box-round { margin-left: 50px; }
 
 }
 
@@ -125,21 +103,16 @@ img.app-dl {
 
 }
 
-
 .match-box-round {
-height: 279px;
 min-height: 250px;
 background: #FFF;
 border: 2px solid #d9d9d9;
 padding: 20px;
 
 border-radius: 50%;
-width: 273px;
+width: 243px;
 text-align: center;
 }
-
-
-
 
 .match-box-round img {
 	margin-top: 50px;
@@ -163,8 +136,6 @@ text-align: center;
   border-bottom-left-radius: 4px;
 }
 
-
-
 .match-box a.button {
 width: 274px;
 min-height: 46px;
@@ -177,8 +148,6 @@ margin-bottom: 22px;
 font-family: 'Helvetica45Light';
 color: white;
 }
-
-
 
 .match-box {
 width: 100%;
@@ -194,9 +163,7 @@ text-align: center;
 display: inline-block;
  margin: auto; 
  width: 100%;
-/*margin-left: 20%;*/
 }
-
 
 @media = screen and (max-width: 767px){
 .banner-content h3 {
@@ -207,8 +174,8 @@ color: white;
 }
 
 main {
-  margin: 20px 0;
   padding: 10px;
+  margin-left: -20px;
 }
 
 main div {
