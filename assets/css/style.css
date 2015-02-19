@@ -7580,7 +7580,7 @@ a.side-menu-btn{
 }
 .landing-page .banner-content{
 	position: absolute;
-	top:210px;
+	/*top:210px;*/
 	left:50%;
 	text-align: center;
 	width:80%;

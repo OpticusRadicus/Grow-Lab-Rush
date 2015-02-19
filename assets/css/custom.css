@@ -33,27 +33,54 @@ h6 {
 
 .landing-page .primary-header li a, .landing-page .secondary-header li a .text-purple1{
 color: #6a489e;
-line-height: 27px;
+line-height: 7px;
 text-transform: uppercase;
 font-family: 'Helvetica65Medium';
 }
 
 .banner-content h3 {
-font-size: 3.8em;
+font-size: 2.8em;
 font-weight: lighter;
 font-family: "Helvetica35Thin";
 color: white;
 }
-
+@media (min-width: 700px){
 .titleHolder {
 	margin: auto;
 	padding-left: 280px;
 	padding-right: 280px;
 }
+ }
+
+@media  (min-width: 300px) and (max-width: 1001px) {
+
+.titleHolder { padding-left: 0px; padding-right: 0px; }
+
+}
+
+
+
+/*@media (min-width: 700px){
+.titleHolder { padding-left: 0px; padding-right: 0px; }
+
+ }
+*/
+@media  (min-width: 300px) and (max-width: 1001px) {
+
+.titleHolder { padding-left: 0px; padding-right: 0px; }
+
+}
+
+
+
+
+
+
+
 
 .landing-page .banner-content {
 position: absolute;
-/*top: 130px;*/
+top: 130px;
 left: 50%;
 text-align: center;
 width: 80%;
@@ -84,17 +111,20 @@ img.app-dl {
 	margin-top: 9.6em;
 }
 
-@media  (min-width: 300px) and (max-width: 699px) {
+
+@media (min-width: 900px) {
+
+.match-box-round { margin-left: 30px; }
+
+}
+
+
+@media (min-width: 100px) and (max-width: 700px) {
 
 .match-box-round { margin-left: 7px; }
 
 }
 
-@media  (min-width: 700px) {
-
-.match-box-round { margin-left: 30px; }
-
-}
 
 .match-box-round {
 height: 279px;
@@ -175,8 +205,6 @@ font-weight: bold;
 color: white;
 	}
 }
-
-
 
 main {
   margin: 20px 0;
