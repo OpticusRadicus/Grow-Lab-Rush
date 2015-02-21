@@ -197,3 +197,13 @@ main div {
   display: flex;
   justify-content: center;
 }
+
+.landing-page .banner-section {
+width: 100%;
+position: relative;
+background-image: url('../images/Grow-Lab-Web-Banner3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0 61px;
+z-index: -10;
+}
